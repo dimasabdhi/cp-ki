@@ -18,11 +18,11 @@ const GALLERY = [
   {
     src: "/photos/wh-forklift.jpeg",
     alt: "Press machine group",
-    cat: "Tooling",
+    cat: "Press",
   },
   {
     src: "/photos/factory-depan.jpeg",
-    alt: "Press machine group",
+    alt: "Factory",
     cat: "Tooling",
   },
   {
@@ -38,7 +38,7 @@ const GALLERY = [
   {
     src: "/photos/press-group-activity.jpeg",
     alt: "Press machine group",
-    cat: "TPress",
+    cat: "Press",
   },
   {
     src: "/photos/press-forklift-dies.jpeg",
@@ -48,7 +48,7 @@ const GALLERY = [
   {
     src: "/photos/welding-press.jpeg",
     alt: "Press machine group",
-    cat: "Tooling",
+    cat: "Press",
   },
   // Add more items here, e.g. { src: "/photos/press-line.jpg", alt: "Press Line", cat: "Tooling" }
 ];
@@ -387,7 +387,7 @@ export default function App() {
             <img
               src={LOGO_URL}
               alt="PT. Kiyokuni Indonesia logo"
-              className="h-12 md:h-24 w-auto"
+              className="h-12 md:h-32 w-auto"
             />
           </a>
           <button
