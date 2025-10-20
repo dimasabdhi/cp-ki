@@ -50,6 +50,21 @@ const GALLERY = [
     alt: "Press machine group",
     cat: "Press",
   },
+  {
+    src: "/photos/assy-group-puma.jpeg",
+    alt: "Assembly line",
+    cat: "Assembly",
+  },
+  {
+    src: "/photos/assy-group-puma-nike.jpeg",
+    alt: "Assembly line",
+    cat: "Assembly",
+  },
+  {
+    src: "/photos/oqc-press.jpeg",
+    alt: "OQC Press",
+    cat: "Quality Control",
+  },
   // Add more items here, e.g. { src: "/photos/press-line.jpg", alt: "Press Line", cat: "Tooling" }
 ];
 
