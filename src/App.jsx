@@ -842,14 +842,14 @@ export default function App() {
                     Jl. Citanduy 1, Plot 3K, Cikarang Selatan, Bekasi 17550
                   </div>
                 </div>
-                <div className="rounded-xl border p-4 bg-slate-50">
+                {/* <div className="rounded-xl border p-4 bg-slate-50">
                   <div className="font-semibold">
                     Engineering Division – EJIP (Bekasi)
                   </div>
                   <div className="text-slate-700">
                     Jalan Citanduy 5, Plot 8M-1, Cikarang Selatan, Bekasi 17550
                   </div>
-                </div>
+                </div> */}
                 <div className="rounded-xl border p-4 bg-slate-50">
                   <div className="font-semibold">Karawang – Suryacipta</div>
                   <div className="text-slate-700">
@@ -857,14 +857,14 @@ export default function App() {
                   </div>
                 </div>
                 <div className="rounded-xl border p-4">
-                  <div className="text-slate-700">Phone: +62-21-897-0721</div>
+                  {/* <div className="text-slate-700">Phone: +62-21-897-0721</div> */}
                   <div className="text-slate-700">
                     Email:{" "}
                     <a
                       className="text-sky-700 hover:underline"
                       href="mailto:information@kiyokuni.co.id"
                     >
-                      information@kiyokuni.co.id
+                      itsupport@kiyokuni.co.id
                     </a>
                   </div>
                 </div>
