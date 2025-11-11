@@ -10,11 +10,11 @@ const GALLERY = [
     alt: "Factory exterior – EJIP",
     cat: "Factory",
   },
-  {
-    src: "https://www.kiyokuni.com/images/gur_in02.png",
-    alt: "Factory exterior – Entrance",
-    cat: "Factory",
-  },
+  // {
+  //   src: "https://www.kiyokuni.com/images/gur_in02.png",
+  //   alt: "Factory exterior – Entrance",
+  //   cat: "Factory",
+  // },
   {
     src: "/photos/wh-forklift.jpeg",
     alt: "Press machine group",
@@ -23,7 +23,7 @@ const GALLERY = [
   {
     src: "/photos/factory-depan.jpeg",
     alt: "Factory",
-    cat: "Tooling",
+    cat: "Factory",
   },
   {
     src: "/photos/press-group-ok.jpeg",
@@ -63,12 +63,12 @@ const GALLERY = [
   {
     src: "/photos/oqc-press.jpeg",
     alt: "OQC Press",
-    cat: "Quality Control",
+    cat: "Qualuty",
   },
   // Add more items here, e.g. { src: "/photos/press-line.jpg", alt: "Press Line", cat: "Tooling" }
 ];
 
-const FILTERS = ["All", "Factory", "Tooling", "Assembly", "Office", "Press", "Assembly", ];
+const FILTERS = ["All", "Factory", "Tooling", "Assembly", "Office", "Press", "Assembly", "Quality" ];
 
 // Simple reveal-on-scroll wrapper
 function Reveal({ children, className = "", delay = 0 }) {
@@ -187,16 +187,16 @@ function ImageCard({ item, onClick, delay = 0 }) {
 }
 
 // Full-screen section wrapper
-function FullSection({ id, className = "", children }) {
-  return (
-    <section
-      id={id}
-      className={`relative snap-start scroll-mt-20 min-h-[100svh] flex items-center ${className}`}
-    >
-      {children}
-    </section>
-  );
-}
+// function FullSection({ id, className = "", children }) {
+//   return (
+//     <section
+//       id={id}
+//       className={`relative snap-start scroll-mt-20 min-h-[100svh] flex items-center ${className}`}
+//     >
+//       {children}
+//     </section>
+//   );
+// }
 
 // Global keyframes/styles used by animated backgrounds
 function GlobalStyles() {
