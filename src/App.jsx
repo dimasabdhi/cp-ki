@@ -187,16 +187,16 @@ function ImageCard({ item, onClick, delay = 0 }) {
 }
 
 // Full-screen section wrapper
-// function FullSection({ id, className = "", children }) {
-//   return (
-//     <section
-//       id={id}
-//       className={`relative snap-start scroll-mt-20 min-h-[100svh] flex items-center ${className}`}
-//     >
-//       {children}
-//     </section>
-//   );
-// }
+function FullSection({ id, className = "", children }) {
+  return (
+    <section
+      id={id}
+      className={`relative snap-start scroll-mt-20 min-h-[100svh] flex items-center ${className}`}
+    >
+      {children}
+    </section>
+  );
+}
 
 // Global keyframes/styles used by animated backgrounds
 function GlobalStyles() {
